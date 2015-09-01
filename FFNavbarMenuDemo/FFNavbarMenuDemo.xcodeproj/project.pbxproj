@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF19B3D41B95538300D91AD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF19B3D31B95538300D91AD0 /* main.m */; };
+		EF19B3D71B95538300D91AD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF19B3D61B95538300D91AD0 /* AppDelegate.m */; };
+		EF19B3DA1B95538300D91AD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF19B3D91B95538300D91AD0 /* ViewController.m */; };
+		EF19B3DF1B95538300D91AD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF19B3DE1B95538300D91AD0 /* Images.xcassets */; };
+		EF19B3E21B95538300D91AD0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF19B3E01B95538300D91AD0 /* LaunchScreen.xib */; };
+		EF19B3EE1B95538400D91AD0 /* FFNavbarMenuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF19B3ED1B95538400D91AD0 /* FFNavbarMenuDemoTests.m */; };
+		EF19B3FF1B95578700D91AD0 /* UIView+FFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EF19B3FE1B95578700D91AD0 /* UIView+FFExtension.m */; };
+		EF19B4021B9558CB00D91AD0 /* FFNavbarMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EF19B4011B9558CB00D91AD0 /* FFNavbarMenu.m */; };
+		EFD58EFF1B95C6E400764224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD58EFE1B95C6E400764224 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF19B3E81B95538400D91AD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF19B3C61B95538300D91AD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF19B3CD1B95538300D91AD0;
+			remoteInfo = FFNavbarMenuDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF19B3CE1B95538300D91AD0 /* FFNavbarMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFNavbarMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF19B3D21B95538300D91AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF19B3D31B95538300D91AD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF19B3D51B95538300D91AD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF19B3D61B95538300D91AD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF19B3D81B95538300D91AD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF19B3D91B95538300D91AD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF19B3DE1B95538300D91AD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF19B3E11B95538300D91AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EF19B3E71B95538400D91AD0 /* FFNavbarMenuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFNavbarMenuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF19B3EC1B95538400D91AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF19B3ED1B95538400D91AD0 /* FFNavbarMenuDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFNavbarMenuDemoTests.m; sourceTree = "<group>"; };
+		EF19B3FD1B95578700D91AD0 /* UIView+FFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FFExtension.h"; sourceTree = "<group>"; };
+		EF19B3FE1B95578700D91AD0 /* UIView+FFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FFExtension.m"; sourceTree = "<group>"; };
+		EF19B4001B9558CB00D91AD0 /* FFNavbarMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFNavbarMenu.h; sourceTree = "<group>"; };
+		EF19B4011B9558CB00D91AD0 /* FFNavbarMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFNavbarMenu.m; sourceTree = "<group>"; };
+		EFD58EFE1B95C6E400764224 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF19B3CB1B95538300D91AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF19B3E41B95538400D91AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF19B3C51B95538300D91AD0 = {
+			isa = PBXGroup;
+			children = (
+				EF19B3D01B95538300D91AD0 /* FFNavbarMenuDemo */,
+				EF19B3EA1B95538400D91AD0 /* FFNavbarMenuDemoTests */,
+				EF19B3CF1B95538300D91AD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF19B3CF1B95538300D91AD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF19B3CE1B95538300D91AD0 /* FFNavbarMenuDemo.app */,
+				EF19B3E71B95538400D91AD0 /* FFNavbarMenuDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF19B3D01B95538300D91AD0 /* FFNavbarMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EF19B3F91B9556BD00D91AD0 /* FFNavbarMenu */,
+				EF19B3D51B95538300D91AD0 /* AppDelegate.h */,
+				EF19B3D61B95538300D91AD0 /* AppDelegate.m */,
+				EF19B3D81B95538300D91AD0 /* ViewController.h */,
+				EF19B3D91B95538300D91AD0 /* ViewController.m */,
+				EFD58EFE1B95C6E400764224 /* Main.storyboard */,
+				EF19B3DE1B95538300D91AD0 /* Images.xcassets */,
+				EF19B3E01B95538300D91AD0 /* LaunchScreen.xib */,
+				EF19B3D11B95538300D91AD0 /* Supporting Files */,
+			);
+			path = FFNavbarMenuDemo;
+			sourceTree = "<group>";
+		};
+		EF19B3D11B95538300D91AD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF19B3D21B95538300D91AD0 /* Info.plist */,
+				EF19B3D31B95538300D91AD0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF19B3EA1B95538400D91AD0 /* FFNavbarMenuDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF19B3ED1B95538400D91AD0 /* FFNavbarMenuDemoTests.m */,
+				EF19B3EB1B95538400D91AD0 /* Supporting Files */,
+			);
+			path = FFNavbarMenuDemoTests;
+			sourceTree = "<group>";
+		};
+		EF19B3EB1B95538400D91AD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF19B3EC1B95538400D91AD0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF19B3F91B9556BD00D91AD0 /* FFNavbarMenu */ = {
+			isa = PBXGroup;
+			children = (
+				EF19B4001B9558CB00D91AD0 /* FFNavbarMenu.h */,
+				EF19B4011B9558CB00D91AD0 /* FFNavbarMenu.m */,
+				EF19B3FD1B95578700D91AD0 /* UIView+FFExtension.h */,
+				EF19B3FE1B95578700D91AD0 /* UIView+FFExtension.m */,
+			);
+			path = FFNavbarMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF19B3CD1B95538300D91AD0 /* FFNavbarMenuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF19B3F11B95538400D91AD0 /* Build configuration list for PBXNativeTarget "FFNavbarMenuDemo" */;
+			buildPhases = (
+				EF19B3CA1B95538300D91AD0 /* Sources */,
+				EF19B3CB1B95538300D91AD0 /* Frameworks */,
+				EF19B3CC1B95538300D91AD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFNavbarMenuDemo;
+			productName = FFNavbarMenuDemo;
+			productReference = EF19B3CE1B95538300D91AD0 /* FFNavbarMenuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF19B3E61B95538400D91AD0 /* FFNavbarMenuDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF19B3F41B95538400D91AD0 /* Build configuration list for PBXNativeTarget "FFNavbarMenuDemoTests" */;
+			buildPhases = (
+				EF19B3E31B95538400D91AD0 /* Sources */,
+				EF19B3E41B95538400D91AD0 /* Frameworks */,
+				EF19B3E51B95538400D91AD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF19B3E91B95538400D91AD0 /* PBXTargetDependency */,
+			);
+			name = FFNavbarMenuDemoTests;
+			productName = FFNavbarMenuDemoTests;
+			productReference = EF19B3E71B95538400D91AD0 /* FFNavbarMenuDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF19B3C61B95538300D91AD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "李峰峰";
+				TargetAttributes = {
+					EF19B3CD1B95538300D91AD0 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					EF19B3E61B95538400D91AD0 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = EF19B3CD1B95538300D91AD0;
+					};
+				};
+			};
+			buildConfigurationList = EF19B3C91B95538300D91AD0 /* Build configuration list for PBXProject "FFNavbarMenuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF19B3C51B95538300D91AD0;
+			productRefGroup = EF19B3CF1B95538300D91AD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF19B3CD1B95538300D91AD0 /* FFNavbarMenuDemo */,
+				EF19B3E61B95538400D91AD0 /* FFNavbarMenuDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF19B3CC1B95538300D91AD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD58EFF1B95C6E400764224 /* Main.storyboard in Resources */,
+				EF19B3E21B95538300D91AD0 /* LaunchScreen.xib in Resources */,
+				EF19B3DF1B95538300D91AD0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF19B3E51B95538400D91AD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF19B3CA1B95538300D91AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF19B3DA1B95538300D91AD0 /* ViewController.m in Sources */,
+				EF19B3D71B95538300D91AD0 /* AppDelegate.m in Sources */,
+				EF19B4021B9558CB00D91AD0 /* FFNavbarMenu.m in Sources */,
+				EF19B3FF1B95578700D91AD0 /* UIView+FFExtension.m in Sources */,
+				EF19B3D41B95538300D91AD0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF19B3E31B95538400D91AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF19B3EE1B95538400D91AD0 /* FFNavbarMenuDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF19B3E91B95538400D91AD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF19B3CD1B95538300D91AD0 /* FFNavbarMenuDemo */;
+			targetProxy = EF19B3E81B95538400D91AD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF19B3E01B95538300D91AD0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF19B3E11B95538300D91AD0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF19B3EF1B95538400D91AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF19B3F01B95538400D91AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF19B3F21B95538400D91AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FFNavbarMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF19B3F31B95538400D91AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FFNavbarMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF19B3F51B95538400D91AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FFNavbarMenuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFNavbarMenuDemo.app/FFNavbarMenuDemo";
+			};
+			name = Debug;
+		};
+		EF19B3F61B95538400D91AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FFNavbarMenuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFNavbarMenuDemo.app/FFNavbarMenuDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF19B3C91B95538300D91AD0 /* Build configuration list for PBXProject "FFNavbarMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF19B3EF1B95538400D91AD0 /* Debug */,
+				EF19B3F01B95538400D91AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF19B3F11B95538400D91AD0 /* Build configuration list for PBXNativeTarget "FFNavbarMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF19B3F21B95538400D91AD0 /* Debug */,
+				EF19B3F31B95538400D91AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF19B3F41B95538400D91AD0 /* Build configuration list for PBXNativeTarget "FFNavbarMenuDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF19B3F51B95538400D91AD0 /* Debug */,
+				EF19B3F61B95538400D91AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF19B3C61B95538300D91AD0 /* Project object */;
+}
